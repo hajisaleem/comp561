@@ -1,11 +1,15 @@
 __author__ = 'SaleemSaddm'
 '''
-Created on: 26th November, 2013.
+Created on: 11th November, 2013.
 
 Comp 561 Project
-Objective 2
+Objective 6,7
 
-Summary: Implementation of Sankoff Algorithm with penalties -1 intra group and -2 inter group.
+Summary: Implementation of Sankoff Algorithm with penalties -1 intra group and -2 inter group and -2 for gaps.
+We try to preserve the base pairing dependencies of the consensus structure by forcing the neucleotide at the closing binding index to be somethign that can form a pair with
+corresponding opening binding index.
+
+The tree structure is given manually and the taxa read from a stockholm file and the output is stored in a file> family_name_out2.txt
 
 '''
 import string
@@ -114,6 +118,8 @@ file_path = "RF00754_seed.stockholm.txt"
 tree_taxa, ss_cons, name_map = parse_stockholm(file_path)
 
 seq_length = len(tree_taxa["A"])
+
+def
 
 #####################################################################################################
 #calculaitng ancestral sequences
@@ -232,7 +238,7 @@ for key in ancestor.iterkeys():
 #creating the output file
 outfile = file_path[:-19]+"out3.txt"
 with open(outfile, "w") as f_out:
-    f_out.writelines("\tRNAfold on Ancestral sequence of RNA Family "+file_path[:-19]+"\n")
+    f_out.writelines("\tRNAfold on Ancestral sequence of RNA Family "+file_path[:-19]+" while preserving the base pair dependencies of the consensus secondary structure\n")
     f_out.writelines("--------------------------------------------------------------------------------------------------------------------------\n")
     f_out.write("\tCalculated Ancestor Sequence\n\n")
     for key in ancestor.iterkeys():

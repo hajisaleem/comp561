@@ -6,6 +6,7 @@ Comp 561 Project
 Objective 2
 
 Summary: Implementation of Sankoff Algorithm with penalties -1 intra group and -2 inter group.
+The tree structure is given manually and the taxa are also given manually
 
 '''
 from Bio import Phylo # just to display our tree

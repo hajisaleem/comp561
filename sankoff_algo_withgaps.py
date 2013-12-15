@@ -1,12 +1,13 @@
 __author__ = 'SaleemSaddm'
 '''
-Created on: 26th November, 2013.
+Created on: 27th November, 2013.
 
 Comp 561 Project
-Objective 2
+Objective 3
 
 Summary: Implementation of Sankoff Algorithm with gaps with penalties -1 intra group and -2 inter group and -2 for gaps.
-
+The cost matrix is no 5x5.
+The tree structure is given manually and the taxa are also given manually
 '''
 from Bio import Phylo # just to display our tree
 

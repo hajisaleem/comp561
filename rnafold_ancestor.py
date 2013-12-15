@@ -1,11 +1,13 @@
 __author__ = 'SaleemSaddm'
 '''
-Created on: 26th November, 2013.
+Created on: 6th December, 2013.
 
 Comp 561 Project
-Objective 2
+Objective 5
 
-Summary: Implementation of Sankoff Algorithm with penalties -1 intra group and -2 inter group.
+Summary: Implementation of Sankoff Algorithm with penalties as before.
+The tree structure is given manually and the taxa read from a stockholm file and the output is stored in a file> family_name_out2.txt
+We use wrappers for functions RNAfold and RNAdistance from Vienna RNA package.
 
 '''
 import string
