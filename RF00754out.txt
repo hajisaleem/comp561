@@ -1,0 +1,98 @@
+	Sankoff Algorithm on RNA Family RF00754
+--------------------------------------------------------------------------------------------------------------------------
+	Tree Sequence
+
+	((((((A,B),C),(D,E)),F),(G,(H,I))),((J,K),L))
+--------------------------------------------------------------------------------------------------------------------------
+	Tree Structure
+                                                                 __________ A
+                                                      __________|
+                                            _________|          |__________ B
+                                           |         |
+                                 __________|         |__________ C
+                                |          |
+                                |          |          __________ D
+                       _________|          |_________|
+                      |         |                    |__________ E
+                      |         |
+            __________|         |__________ F
+           |          |
+           |          |          __________ G
+           |          |_________|
+           |                    |           _________ H
+___________|                    |__________|
+           |                               |_________ I
+           |
+           |                     __________ J
+           |           _________|
+           |__________|         |__________ K
+                      |
+                      |_________ L
+
+	p	[lc, rc]
+
+	1	['A', 'B']
+	2	[1, 'C']
+	3	['D', 'E']
+	4	[2, 3]
+	5	[4, 'F']
+	6	['H', 'I']
+	7	['G', 6]
+	8	[5, 7]
+	9	['J', 'K']
+	10	[9, 'L']
+	11	[8, 10]
+--------------------------------------------------------------------------------------------------------------------------
+	Leaf Nodes
+
+	A	T.castaneum.1
+	C	D.virilis.1
+	B	T.castaneum.2
+	E	D.ananassae.1
+	D	D.grimshawi.1
+	G	D.pseudoobscura.1
+	F	D.melanogaster.1
+	I	C.quinquefasciatus.1
+	H	A.aegypti.1
+	K	A.mellifera.1
+	J	A.florea.1
+	L	N.vitripennis.1
+--------------------------------------------------------------------------------------------------------------------------
+	Leaf Sequence
+
+	UGGAGCUCUCGGUGUAAGCCAGUGUUCAGUCUAUUGUUUCACAUUGGUUUCG.......AUUGUGACUAGAUCGAACACUCGCUUGCAACCUGG...GUUU	A
+	GCGUACUACUGUUUUUAGUGAGUGAGG.GUCCAGUGUUUCACAUUCGUUUUUUCAAGUAUUUGUGACUAGAU.CCACACUCAUUAACAACGGUA...GUUC	C
+	AAUUUGAUCCGUUCUUGAUGGGUUCGG.GUCUAGUGG..CACGGUUUUUUCA.....ACUUCGUGACUAGAU.CCACACUCAUUAAGGAAGUUU...CACA	B
+	UACUACUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGAUUUCUG....UAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUUC	E
+	CCGUAUUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGUUUAUUUG...UAUUUGUGACUAGAU.CCACACUCAUUAAAAACGGUA...GUUC	D
+	UCAUACUACUGUUUUUAGUGAGUGAGG.GUCCAGUGUUUCACAUUGAUUUUCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUUC	G
+	UCAUACUACUGUUUUUAGUGGGUGGGG.GUCCAGUGUUUCACAUUGAUUUUCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUUC	F
+	GCUUCCCACUAUUGUCGAUGGGUGUGA.AUCUAGUGGUUCACAUGAGCUUUGCC..A.AACUGUGACUAGAU.CCACACUCAUUAACAAGAGUGCUCGGAA	I
+	CAUCCCAACGGUUGUCGAUGGGUGUGA.AUCUAGUGUUUCACAUGAUUUUCGAUA.GCC..UGUGACUAGAU.CCACACUCAUUAACAAAAGUU...GCCG	H
+	UUGUUCGAUGGCCUUGGAUGGGUUUGA.AUUCAG...UCCACGUU..UUUUAUUU.UUAUUCGUGACUAGAU.CCACACUCAUCCAAGGAAAUC...GAGC	K
+	UUUCCUGAAUUUGCCAAAUGAGUGAAG.GUCUAGUG...CACAGAAAAUGAA.......AUUGUGACUAGAU.CCACACUCAUUAAGUACGUUC...AGGU	J
+	CCAGCCGAUUGUACUGAGUGAGUGAUG.GUCUGGUG.....CACGGUUUAUC.....GAUCUGUGACUAGAU.CCACACUCAUUAAGUACGUUC...GGCU	L
+--------------------------------------------------------------------------------------------------------------------------
+	Cost Matrix
+
+['A', 'C', 'G', 'U', '.']
+[[0, 2, 1, 2, 2],
+ [2, 0, 2, 1, 2],
+ [1, 2, 0, 2, 2],
+ [2, 1, 2, 0, 2],
+ [2, 2, 2, 2, 0]]
+--------------------------------------------------------------------------------------------------------------------------
+	Calculated Ancestor Sequence
+
+	AAGAGCACCCGGUCUAAACCAGUGCGCAGUCUAGUGGUUCACAGUGGUUUCA.....ACAUCGUGACUAGAUCCAACACUCACUAACAAACUGG...CACA	1
+	AAGUACUACCGUUCUUAGUGAGUGAGG.GUCCAGUGUUUCACAUUCGUUUCAUCAAGAAUUUGUGACUAGAU.CCACACUCAUUAACAACGGUA...GUUC	2
+	CACUACUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGAUUACUGG...UAUUUGUGACUAGAU.CCACACUCAUUAAAAACGGUA...GUUC	3
+	UAGUACUACUGUUUUUAGUGAGUGAGG.GUCCAGUGUUUCACAUUGAUUUCUU....UAUUUGUGACUAGAU.CCACACUCAUUAACAACGGUA...GUUC	4
+	UCAUACUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGAUUUUCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUUC	5
+	CAUCCCAACGAUUGUCGAUGGGUGUGA.AUCUAGUGGUUCACAUGAGCUUCGACA.ACAACUGUGACUAGAU.CCACACUCAUUAACAAAAGUGCUCGCAA	6
+	CCAUACCACUGUUGUCAAUGAGUGAGA.AUCCAGUGUUUCACAUGAAUUUUCCUA.GCAACUGUGACUAGAU.CCACACUCAUUAACAAAAGUA...GCCA	7
+	UCAUACUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGAUUUUCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUUC	8
+	UUGCCCGAAGGCCCCAAAUGAGUGAAA.AUCCAGUG.UCCACAGAAAAUGAAUUU.UUAAUCGUGACUAGAU.CCACACUCAUCAAAGAAAAUC...AAGC	9
+	CCACCCGAUUGUACUGAAUGAGUGAAG.GUCUAGUG...CACACAAAUUAUA.....GAUCUGUGACUAGAU.CCACACUCAUUAAGUACGUUC...GGCU	10
+	UCAUACGACUGUACUGAGUGAGUGAGG.GUCCAGUGUUUCACAUUGAUUUUCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAGAACGGUA...GGCC	11
+--------------------------------------------------------------------------------------------------------------------------

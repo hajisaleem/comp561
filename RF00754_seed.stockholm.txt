@@ -1,0 +1,128 @@
+# STOCKHOLM 1.0
+#=GF ID    mir-279
+#=GF AC    RF00754
+#=GF DE    microRNA mir-279
+#=GF AU    Wilkinson A
+#=GF GA    20.0
+#=GF NC    19.5
+#=GF TC    20.0
+#=GF SE    miRBase; Wilkinson A
+#=GF SS    Predicted; WAR; Wilkinson A
+#=GF TP    Gene; miRNA;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 274931 -E 1000000  --toponly  CM SEQDB
+#=GF DR    MIPF; MIPF0000184
+#=GF DR    SO:0001244 SO:pre_miRNA
+#=GF DR    GO:0035068 GO:micro-ribonucleoprotein complex
+#=GF DR    GO:0035195 GO:gene silencing by miRNA
+#=GF RN    [1]
+#=GF RM    19961592
+#=GF RT    Direct sequencing and expression analysis of a large number of miRNAs
+#=GF RT    in Aedes aegypti and a multi-species survey of novel mosquito miRNAs.
+#=GF RA    Li S, Mead EA, Liang S, Tu Z;
+#=GF RL    BMC Genomics. 2009;10:581.
+#=GF RN    [2]
+#=GF RM    20167119
+#=GF RT    Identification of microRNAs expressed in two mosquito vectors, Aedes
+#=GF RT    albopictus and Culex quinquefasciatus.
+#=GF RA    Skalsky RL, Vanlandingham DL, Scholle F, Higgs S, Cullen BR;
+#=GF RL    BMC Genomics. 2010;11:119.
+#=GF RN    [3]
+#=GF RM    20817720
+#=GF RT    Functional shifts in insect microRNA evolution.
+#=GF RA    Marco A, Hui JH, Ronshaugen M, Griffiths-Jones S;
+#=GF RL    Genome Biol Evol. 2010;2:686-696.
+#=GF RN    [4]
+#=GF RM    20075255
+#=GF RT    Functional and evolutionary insights from the genomes of three
+#=GF RT    parasitoid Nasonia species.
+#=GF RA    Werren JH, Richards S, Desjardins CA, Niehuis O, Gadau J, Colbourne
+#=GF RA    JK, Werren JH, Richards S, Desjardins CA, Niehuis O, Gadau J,
+#=GF RA    Colbourne JK, Beukeboom LW, Desplan C, Elsik CG, Grimmelikhuijzen CJ,
+#=GF RA    Kitts P, Lynch JA, Murphy T, Oliveira DC, Smith CD, van de Zande L,
+#=GF RA    Worley KC, Zdobnov EM, Aerts M, Albert S, Anaya VH, Anzola JM,
+#=GF RA    Barchuk AR, Behura SK, Bera AN, Berenbaum MR, Bertossa RC, Bitondi
+#=GF RA    MM, Bordenstein SR, Bork P, Bornberg-Bauer E, Brunain M, Cazzamali G,
+#=GF RA    Chaboub L, Chacko J, Chavez D, Childers CP, Choi JH, Clark ME,
+#=GF RA    Claudianos C, Clinton RA, Cree AG, Cristino AS, Dang PM, Darby AC, de
+#=GF RA    Graaf DC, Devreese B, Dinh HH, Edwards R, Elango N, Elhaik E,
+#=GF RA    Ermolaeva O, Evans JD, Foret S, Fowler GR, Gerlach D, Gibson JD,
+#=GF RA    Gilbert DG, Graur D, Grunder S, Hagen DE, Han Y, Hauser F, Hultmark
+#=GF RA    D, Hunter HC 4th, Hurst GD, Jhangian SN, Jiang H, Johnson RM, Jones
+#=GF RA    AK, Junier T, Kadowaki T, Kamping A, Kapustin Y, Kechavarzi B, Kim J,
+#=GF RA    Kim J, Kiryutin B, Koevoets T, Kovar CL, Kriventseva EV, Kucharski R,
+#=GF RA    Lee H, Lee SL, Lees K, Lewis LR, Loehlin DW, Logsdon JM Jr, Lopez JA,
+#=GF RA    Lozado RJ, Maglott D, Maleszka R, Mayampurath A, Mazur DJ, McClure
+#=GF RA    MA, Moore AD, Morgan MB, Muller J, Munoz-Torres MC, Muzny DM,
+#=GF RA    Nazareth LV, Neupert S, Nguyen NB, Nunes FM, Oakeshott JG, Okwuonu
+#=GF RA    GO, Pannebakker BA, Pejaver VR, Peng Z, Pratt SC, Predel R, Pu LL,
+#=GF RA    Ranson H, Raychoudhury R, Rechtsteiner A, Reese JT, Reid JG, Riddle
+#=GF RA    M, Robertson HM, Romero-Severson J, Rosenberg M, Sackton TB, Sattelle
+#=GF RA    DB, Schluns H, Schmitt T, Schneider M, Schuler A, Schurko AM, Shuker
+#=GF RA    DM, Simoes ZL, Sinha S, Smith Z, Solovyev V, Souvorov A, Springauf A,
+#=GF RA    Stafflinger E, Stage DE, Stanke M, Tanaka Y, Telschow A, Trent C,
+#=GF RA    Vattathil S, Verhulst EC, Viljakainen L, Wanner KW, Waterhouse RM,
+#=GF RA    Whitfield JB, Wilkes TE, Williamson M, Willis JH, Wolschin F, Wyder
+#=GF RA    S, Yamada T, Yi SV, Zecher CN, Zhang L, Gibbs RA;
+#=GF RL    Science. 2010;327:343-348.
+#=GF WK    http://en.wikipedia.org/wiki/MicroRNA
+#=GF SQ    12
+
+#=GS T.castaneum.1        AC    AAJJ01003219.1/11291-11201
+#=GS T.castaneum.2        AC    AAJJ01000015.1/255293-255381
+#=GS D.virilis.1          AC    AANI01014375.1/46325-46420
+#=GS D.grimshawi.1        AC    AAPT01018378.1/277640-277732
+#=GS D.ananassae.1        AC    AAPP01019575.1/159482-159391
+#=GS D.melanogaster.1     AC    JN211060.1/1022-1116
+#=GS D.pseudoobscura.1    AC    AADE01000363.1/2006-2100
+#=GS A.aegypti.1          AC    AAGE02017556.1/117017-116925
+#=GS C.quinquefasciatus.1 AC    AAWU01001985.1/8444-8349
+#=GS A.florea.1           AC    AEKZ01010226.1/4670-4585
+#=GS A.mellifera.1        AC    AADG06007490.1/6579-6668
+#=GS N.vitripennis.1      AC    AAZX01001678.1/20489-20404
+
+T.castaneum.1                    UGGAGCUCUCGGUGUAAGCCAGUGUUCAGUCUAUUGUUUCACAUUGGUUU
+T.castaneum.2                    AAUUUGAUCCGUUCUUGAUGGGUUCGG.GUCUAGUGG..CACGGUUUUUU
+D.virilis.1                      GCGUACUACUGUUUUUAGUGAGUGAGG.GUCCAGUGUUUCACAUUCGUUU
+D.grimshawi.1                    CCGUAUUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGUUUA
+D.ananassae.1                    UACUACUACUGUUUUUAGUGGGUGAGG.GUCCAGUGUUUCACAUUGAUUU
+D.melanogaster.1                 UCAUACUACUGUUUUUAGUGGGUGGGG.GUCCAGUGUUUCACAUUGAUUU
+D.pseudoobscura.1                UCAUACUACUGUUUUUAGUGAGUGAGG.GUCCAGUGUUUCACAUUGAUUU
+A.aegypti.1                      CAUCCCAACGGUUGUCGAUGGGUGUGA.AUCUAGUGUUUCACAUGAUUUU
+C.quinquefasciatus.1             GCUUCCCACUAUUGUCGAUGGGUGUGA.AUCUAGUGGUUCACAUGAGCUU
+A.florea.1                       UUUCCUGAAUUUGCCAAAUGAGUGAAG.GUCUAGUG...CACAGAAAAUG
+A.mellifera.1                    UUGUUCGAUGGCCUUGGAUGGGUUUGA.AUUCAG...UCCACGUU..UUU
+N.vitripennis.1                  CCAGCCGAUUGUACUGAGUGAGUGAUG.GUCUGGUG.....CACGGUUUA
+#=GC SS_cons                     ....<<<<<<<<<<<<<<<<<<<<<<<.<<<<<<....<<<<<.......
+#=GC RF                          uauucCgacuguucuuaauGaGUGuGg.gUCuAGUGuUuCACauuaaUUu
+
+T.castaneum.1                    CG.......AUUGUGACUAGAUCGAACACUCGCUUGCAACCUGG...GUU
+T.castaneum.2                    CA.....ACUUCGUGACUAGAU.CCACACUCAUUAAGGAAGUUU...CAC
+D.virilis.1                      UUUCAAGUAUUUGUGACUAGAU.CCACACUCAUUAACAACGGUA...GUU
+D.grimshawi.1                    UUUG...UAUUUGUGACUAGAU.CCACACUCAUUAAAAACGGUA...GUU
+D.ananassae.1                    CUG....UAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUU
+D.melanogaster.1                 UCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUU
+D.pseudoobscura.1                UCUUA.GUAUUUGUGACUAGAU.CCACACUCAUUAAUAACGGUA...GUU
+A.aegypti.1                      CGAUA.GCC..UGUGACUAGAU.CCACACUCAUUAACAAAAGUU...GCC
+C.quinquefasciatus.1             UGCC..A.AACUGUGACUAGAU.CCACACUCAUUAACAAGAGUGCUCGGA
+A.florea.1                       AA.......AUUGUGACUAGAU.CCACACUCAUUAAGUACGUUC...AGG
+A.mellifera.1                    UAUUU.UUAUUCGUGACUAGAU.CCACACUCAUCCAAGGAAAUC...GAG
+N.vitripennis.1                  UC.....GAUCUGUGACUAGAU.CCACACUCAUUAAGUACGUUC...GGC
+#=GC SS_cons                     ...........>>>>>>>>>>>.>>>>>>>>>>>>>>>>>>>>>...>>.
+#=GC RF                          uauu...uAuUuGUGaCUaGAu.cCaCACuCauuaagaacaguc...Ggu
+
+T.castaneum.1                    U
+T.castaneum.2                    A
+D.virilis.1                      C
+D.grimshawi.1                    C
+D.ananassae.1                    C
+D.melanogaster.1                 C
+D.pseudoobscura.1                C
+A.aegypti.1                      G
+C.quinquefasciatus.1             A
+A.florea.1                       U
+A.mellifera.1                    C
+N.vitripennis.1                  U
+#=GC SS_cons                     .
+#=GC RF                          u
+//
