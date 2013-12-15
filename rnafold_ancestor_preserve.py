@@ -9,7 +9,7 @@ Summary: Implementation of Sankoff Algorithm with penalties -1 intra group and -
 We try to preserve the base pairing dependencies of the consensus structure by forcing the neucleotide at the closing binding index to be somethign that can form a pair with
 corresponding opening binding index.
 
-The tree structure is given manually and the taxa read from a stockholm file and the output is stored in a file> family_name_out2.txt
+The tree structure is given manually and the taxa read from a stockholm file and the output is stored in a file> family_name_out3.txt
 
 '''
 import string
