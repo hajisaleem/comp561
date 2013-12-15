@@ -111,7 +111,6 @@ def parse_stockholm(file_path):
     #converting to paranthesis format
     ss_cons = re.sub("<", "(", ss_cons)
     ss_cons = re.sub(">", ")", ss_cons)
-    print ss_cons
     return sq2, ss_cons, name_map
 
 file_path = "RF00754_seed.stockholm.txt"
@@ -119,7 +118,24 @@ tree_taxa, ss_cons, name_map = parse_stockholm(file_path)
 
 seq_length = len(tree_taxa["A"])
 
-def
+def parseRNAfold(seq):
+    dictRNAfold = {}
+    stack = []
+    justlist = []
+    i = 0
+    for char in seq:
+        if char == "(":
+            stack.append(i)
+            justlist.append(i)
+        if char == ")":
+            dictRNAfold[i] = stack.pop(-1)
+            justlist.append(i)
+        i+=1
+    return dictRNAfold, justlist
+
+dictRNAfold, justlistofindices = parseRNAfold(ss_cons)
+
+#gives the indices of the binding pair
 
 #####################################################################################################
 #calculaitng ancestral sequences
@@ -171,6 +187,17 @@ for i in xrange(1,taxa_num): #for each ancestor
 
 #---------------------------------------------------------------
 #Getting the ancestral sequence
+
+#We have to make sure of two things:
+#1. There are no gaps at the indices of binding pair
+#2. The closing binding pair is aligned with opening binding pair, i.e., A-U and G-C
+
+allowed_pair = {}
+allowed_pair["A"] = "U"
+allowed_pair["U"] = "A"
+allowed_pair["G"] = "C"
+allowed_pair["C"] = "G"
+
 ancestor = {}
 for key in ances_taxa.iterkeys():
     sequence = ""
@@ -179,8 +206,14 @@ for key in ances_taxa.iterkeys():
     else:
         for i in xrange(0,seq_length):
             temp = ances_taxa[key][i]
-            min_idx = temp.index(min(temp))
-            sequence=sequence+mat_list[min_idx]
+            if i in justlistofindices:#removing the possibilty of a gap at a binding index
+                temp.pop(-1)
+            if i in dictRNAfold.iterkeys():
+                openingidx = dictRNAfold[i]
+                sequence = sequence+allowed_pair[sequence[openingidx]]
+            else:
+                min_idx = temp.index(min(temp))
+                sequence=sequence+mat_list[min_idx]
     ancestor[key] = sequence
 
 #####################################################################################################
