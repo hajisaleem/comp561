@@ -1,6 +1,6 @@
 __author__ = 'SaleemSaddm'
 '''
-Created on: 11th November, 2013.
+Created on: 11th December, 2013.
 
 Comp 561 Project
 Objective 6,7
@@ -116,6 +116,8 @@ def parse_stockholm(file_path):
 file_path = "RF00754_seed.stockholm.txt"
 tree_taxa, ss_cons, name_map = parse_stockholm(file_path)
 
+
+
 seq_length = len(tree_taxa["A"])
 
 def parseRNAfold(seq):
@@ -134,6 +136,7 @@ def parseRNAfold(seq):
     return dictRNAfold, justlist
 
 dictRNAfold, justlistofindices = parseRNAfold(ss_cons)
+
 
 #gives the indices of the binding pair
 
@@ -160,6 +163,7 @@ for taxa in tree_taxa.iterkeys(): #for all leaf nodes
 #---------------------------------------------------------------
 #the main algorithm
 
+
 for i in xrange(1,taxa_num): #for each ancestor
     lc = tree_dict[i][0]
     rc = tree_dict[i][1]
@@ -185,18 +189,20 @@ for i in xrange(1,taxa_num): #for each ancestor
         ances.append(col_cost)
     ances_taxa[i] = ances
 
+
 #---------------------------------------------------------------
 #Getting the ancestral sequence
 
 #We have to make sure of two things:
 #1. There are no gaps at the indices of binding pair
-#2. The closing binding pair is aligned with opening binding pair, i.e., A-U and G-C
+#2. The closing binding pair is aligned with opening binding pair, i.e., A-U, G-C and G-U
 
 allowed_pair = {}
-allowed_pair["A"] = "U"
-allowed_pair["U"] = "A"
-allowed_pair["G"] = "C"
-allowed_pair["C"] = "G"
+allowed_pair["A"] = [3]
+allowed_pair["U"] = [0]
+allowed_pair["G"] = [1, 3]
+allowed_pair["C"] = [0, 2]
+
 
 ancestor = {}
 for key in ances_taxa.iterkeys():
@@ -210,10 +216,22 @@ for key in ances_taxa.iterkeys():
                 temp.pop(-1)
             if i in dictRNAfold.iterkeys():
                 openingidx = dictRNAfold[i]
-                sequence = sequence+allowed_pair[sequence[openingidx]]
+                openingnuc = sequence[openingidx] #neucleotide at opening index
+
+                if len(allowed_pair[openingnuc])==2:
+                    a = allowed_pair[openingnuc][0]
+                    b = allowed_pair[openingnuc][1]
+                    if temp[a] > temp[b]:
+                        sequence=sequence+mat_list[b]
+                    else:
+                        sequence=sequence+mat_list[a]
+
+                else:
+                    sequence=sequence+mat_list[allowed_pair[openingnuc][0]]
             else:
                 min_idx = temp.index(min(temp))
                 sequence=sequence+mat_list[min_idx]
+
     ancestor[key] = sequence
 
 #####################################################################################################
