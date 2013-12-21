@@ -1,0 +1,185 @@
+# STOCKHOLM 1.0
+#=GF ID    GABA3
+#=GF AC    RF01803
+#=GF DE    Editing element of GABA-3 exon 9
+#=GF AU    Gardner PP, Moore B
+#=GF GA    55.0
+#=GF NC    54.3
+#=GF TC    55.1
+#=GF SE    Gardner PP
+#=GF SS    Published; PMID:17369310
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 274931 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF RN    [1]
+#=GF RM    17369310
+#=GF RT    Editing modifies the GABA(A) receptor subunit alpha3.
+#=GF RA    Ohlson J, Pedersen JS, Haussler D, Ohman M
+#=GF RL    RNA. 2007;13:698-703.
+#=GF WK    http://en.wikipedia.org/wiki/GABRA3
+#=GF SQ    52
+
+#=GS C.milii.1              AC    AAVX01049780.1/465-518
+#=GS O.latipes.1            AC    BAAE01211982.1/3859-3806
+#=GS Gasterosteus_aculeat.1 AC    AANH01000564.1/319153-319100
+#=GS L.fuelleborni.1        AC    ABPK01030344.1/336-389
+#=GS M.auratus.1            AC    ABPL01005892.1/125-178
+#=GS T.rubripes.1           AC    CAAB02000558.1/34536-34483
+#=GS T.nigroviridis.1       AC    CAAE01015042.1/49047-49100
+#=GS S.salar.1              AC    BT072045.1/8-61
+#=GS C.auratus.1            AC    X94342.1/883-936
+#=GS D.rerio.1              AC    BX664715.25/63784-63731
+#=GS X.laevis.1             AC    BC079777.1/996-1049
+#=GS R.catesbeiana.1        AC    AF411006.1/734-787
+#=GS G.gallus.1             AC    X54244.1/1109-1162
+#=GS T.guttata.1            AC    DQ086494.1/320-373
+#=GS A.carolinensis.1       AC    AAWZ02026476.1/2453-2506
+#=GS A.inornata.1           AC    EU124509.1/412-465
+#=GS P.capensis.1           AC    ABRQ01310440.1/782-729
+#=GS L.africana.1           AC    AAGU03005368.1/31044-31097
+#=GS L.africana.2           AC    AAGU03083042.1/65636-65689
+#=GS E.telfairi.1           AC    AAIY01397026.1/3714-3767
+#=GS O.cuniculus.1          AC    AAGW02050317.1/23800-23747
+#=GS O.princeps.1           AC    AAYZ01114260.1/2259-2206
+#=GS C.porcellus.1          AC    AAKN02056084.1/33891-33944
+#=GS D.ordii.1              AC    ABRO01098209.1/8417-8364
+#=GS M.musculus.1           AC    CAAA01087468.1/18653-18706
+#=GS R.norvegicus.1         AC    AY574250.1/913-966
+#=GS Rattus.1               AC    S55933.1/1025-1078
+#=GS Spermophilus_tridece.1 AC    AAQQ01555063.1/6155-6102
+#=GS M.mulatta.1            AC    AANU01122202.1/22130-22078
+#=GS H.sapiens.1            AC    AK290453.1/1132-1185
+#=GS H.sapiens.2            AC    BC035055.1/1046-1099
+#=GS H.sapiens.3            AC    S62908.1/1076-1129
+#=GS P.abelii.1             AC    ABGA01372764.1/1905-1852
+#=GS T.syrichta.1           AC    ABRT010131250.1/5485-5432
+#=GS M.murinus.1            AC    ABDC01566860.1/715-768
+#=GS Otolemur_garnettii_s.1 AC    AAQR03160834.1/5873-5820
+#=GS T.belangeri.1          AC    AAPY01578670.1/1538-1485
+#=GS C.lupus.1              AC    AAEX03003042.1/539261-539208
+#=GS F.catus.1              AC    AANG01134232.1/591-644
+#=GS T.truncatus.1          AC    ABRN01434353.1/10428-10375
+#=GS B.taurus.1             AC    X12362.1/1050-1103
+#=GS V.pacos.1              AC    ABRR01322078.1/1211-1158
+#=GS P.vampyrus.1           AC    ABRP01300236.1/282-229
+#=GS M.lucifugus.1          AC    AAPE02017168.1/133730-133783
+#=GS E.europaeus.1          AC    AANN01751877.1/2324-2271
+#=GS S.araneus.1            AC    AALT01589287.1/1066-1013
+#=GS E.caballus.1           AC    AAWR02000829.1/58348-58401
+#=GS Dasypus_novemcinctus.1 AC    AAGV020371009.1/1739-1686
+#=GS Choloepus_hoffmanni_.1 AC    ABVD01219697.1/1691-1638
+#=GS Monodelphis_domestic.1 AC    AAFR03012717.1/28787-28734
+#=GS M.eugenii.1            AC    ABQO010663047.1/1990-1937
+#=GS O.anatinus.1           AC    AAPN01143914.1/1278-1331
+
+C.milii.1                          AAAGUGGCAUACGCCACUGCCAUGGAUUGGUUCAUUGCUGUGUGUUAUGC
+O.latipes.1                        AAAGUGGCCUACGCCACCGCCAUGGACUGGUUCAUUGCUGUGUGCUACGC
+Gasterosteus_aculeat.1             AAGGUGGCAUAUGCCACUGCCAUGGACUGGUUCAUGGCAGUGUGCUACGC
+L.fuelleborni.1                    AAAGUCUCCUAUGCCACAGCCAUGGAUUGGUUCAUUGCUGUUUGCUUUGC
+M.auratus.1                        AAAGUGGCCUAUGCCACCGCCAUGGACUGGUUCAUGGCUGUGUGCUAUGC
+T.rubripes.1                       AAGGUGGCCUACGCCACCGCCAUGGACUGGUUCAUGGCGGUGUGCUACGC
+T.nigroviridis.1                   AAAGUGGCCUACGCCACAGCUAUGGACUGGUUCAUCGCUGUCUGCUAUGC
+S.salar.1                          AAGGUGGCCUAUGCCACAGCCAUGGACUGGUUCAUUGCAGUCUGCUAUGC
+C.auratus.1                        AAGGUCUCCUAUGCCACCGCCAUGGACUGGUUCAUCGCCGUCUGCUUCGC
+D.rerio.1                          AAAGUGGCGUAUGCUACCGCCAUGGACUGGUUCAUAGCUGUCUGCUAUGC
+X.laevis.1                         AAAGUGGCCUAUGCAACAGCCAUGGACUGGUUCAUUGCAGUCUGCUAUGC
+R.catesbeiana.1                    AAAGUAGCCUAUGCCACUGCCAUGGACUGGUUUAUAGCAGUGUGUUAUGC
+G.gallus.1                         AAGGUGGCCUACGCCACUGCCAUGGAUUGGUUUAUAGCGGUGUGCUAUGC
+T.guttata.1                        AAGGUGGCCUAUGCCACGGCCAUGGACUGGUUCAUCGCCGUGUGCUACGC
+A.carolinensis.1                   AAAGUGGCCUAUGCAACUGCCAUGGACUGGUUCAUGGCCGUCUGUUAUGC
+A.inornata.1                       AAAGUGUCAUACGCUACUGCCAUGGACUGGUUCAUUGCCGUAUGCUUUGC
+P.capensis.1                       AAAGUGGCUUAUGCCACAGCAAUGGAUUGGUUUAUUGCAGUGUGCUAUGC
+L.africana.1                       AAAGUGUCGUAUGCAACUGCCAUGGAUUGGUUCAUAGCUGUUUGCUUUGC
+L.africana.2                       AAAGUGGCUUAUGCCACGGCCAUGGACUGGUUCAUAGCUGUGUGCUACGC
+E.telfairi.1                       AAGGUGGCCUACGCCACAGCCAUGGAUUGGUUUAUCGCUGUGUGCUAUGC
+O.cuniculus.1                      AAAGUGGCUUACGCCACUGCCAUGGACUGGUUCAUUGCUGUGUGCUAUGC
+O.princeps.1                       AAAGUGGCUUAUGCAACUGCCAUGGACUGGUUCAUUGCUGUCUGUUAUGC
+C.porcellus.1                      AAAGUGGCGUACGCGACGGCCAUGGACUGGUUCAUAGCCGUCUGUUAUGC
+D.ordii.1                          AAGGUGGCCUACGCCACGGCCAUGGACUGGUUCAUCGCCGUGUGCUAUGC
+M.musculus.1                       AAAGUGGCCUAUGCCACAGCCAUGGACUGGUUCAUUGCUGUCUGCUAUGC
+R.norvegicus.1                     AAGGUGGCUUAUGCAACGGCCAUGGACUGGUUUAUUGCAGUGUGCUAUGC
+Rattus.1                           AAAGUGUCCUAUGCGACUGCCAUGGAUUGGUUCAUAGCUGUCUGUUUUGC
+Spermophilus_tridece.1             AAAGUGGCUUAUGCUACUGCCAUGGACUGGUUUAUUGCUGUUUGUUAUGC
+M.mulatta.1                        AAAGUGUCAUAUGCCACUGCCAUGGAUUGGUUCAUAGCUGUUUGCUUUG.
+H.sapiens.1                        AAAGUGGCCUACGCCACCGCCAUGGACUGGUUCAUAGCUGUGUGCUAUGC
+H.sapiens.2                        AAAGUGUCCUAUGCUACCGCCAUGGACUGGUUCAUAGCUGUCUGCUUUGC
+H.sapiens.3                        AAAGUGGCAUAUGCGACGGCCAUGGACUGGUUCAUAGCCGUCUGUUAUGC
+P.abelii.1                         AAAGUGGCUUAUGCAACUGCUAUGGACUGGUUUAUUGCCGUUUGUUAUGC
+T.syrichta.1                       AAAGUGGCAUAUGCAACUGCCAUGGACUGGUUUAUUGCUGUUUGUUAUGC
+M.murinus.1                        AAGGUGGCUUAUGCAACAGCUAUGGAUUGGUUUAUUGCAGUGUGCUAUGC
+Otolemur_garnettii_s.1             AAAGUCGCCUAUGCCACCGCCAUGGACUGGUUCAUAGCCGUGUGCUACGC
+T.belangeri.1                      AAAGUGGCUUACGCAACCGCCAUGGACUGGUUCAUUGCUGUCUGUUACGC
+C.lupus.1                          AAGGUGGCUUAUGCCACUGCUAUGGAUUGGUUCAUUGCAGUGUGCUAUGC
+F.catus.1                          AAAGUGGCUUAUGCGACAGCCAUGGACUGGUUCAUAGCUGUGUGCUAUGC
+T.truncatus.1                      AAAGUGUCUUAUGCGACCGCCAUGGAUUGGUUUAUAGCUGUUUGCUUUGC
+B.taurus.1                         AAAGUGGCAUAUGCGACGGCCAUGGAUUGGUUCAUGGCCGUGUGUUAUGC
+V.pacos.1                          AAAGUGGCGUACGCGACGGCCAUGGACUGGUUCAUCGCGGUGUGCUACGC
+P.vampyrus.1                       AAAGUGGCCUACGCCACGGCCAUGGACUGGUUCAUCGCCGUCUGCUACGC
+M.lucifugus.1                      AAAGUGGCUUAUGCUACUGCCAUGGACUGGUUUAUUGCUGUUUGCUAUGC
+E.europaeus.1                      AAGGUGGCGUAUGCGACGGCCAUGGAUUGGUUCAUAGCCGUCUGUUAUGC
+S.araneus.1                        AAGGUGGCAUAUGCCACCGCUAUGGACUGGUUCAUCGCUGUGUGCUAUGC
+E.caballus.1                       AAAGUGGCUUAUGCGACAGCCAUGGACUGGUUCAUAGCCGUGUGCUACGC
+Dasypus_novemcinctus.1             AAGGUGGCAUAUGCUACAGCCAUGGAUUGGUUUAUUGCAGUGUGCUAUGC
+Choloepus_hoffmanni_.1             AAAGUGGCUUACGCAACUGCCAUGGACUGGUUCAUAGCCGUGUGCUAUGC
+Monodelphis_domestic.1             AAAGUGGCCUAUGCCACAGCCAUGGAUUGGUUUAUUGCAGUGUGUUAUGC
+M.eugenii.1                        AAAGUGUCCUAUGCUACUGCCAUGGAUUGGUUCAUAGCUGUGUGCUUUGC
+O.anatinus.1                       AAAGUGGCCUAUGCCACUGCCAUGGACUGGUUCAUUGCCGUCUGCUACGC
+#=GC SS_cons                       <<<..<<<.<<.<<<<<<<<.<<<<<....>>>>>.>>>>>>.>>>>.>>
+#=GC RF                            AAaGUgGCcuAUGCcACgGCCAUGGAcUGGUUCAUaGCcGUgUGCUaUGC
+
+C.milii.1                          CUUC
+O.latipes.1                        UUUU
+Gasterosteus_aculeat.1             CUUU
+L.fuelleborni.1                    CUUU
+M.auratus.1                        CUUU
+T.rubripes.1                       CUUU
+T.nigroviridis.1                   CUUC
+S.salar.1                          CUUU
+C.auratus.1                        AUUU
+D.rerio.1                          CUUC
+X.laevis.1                         UUUU
+R.catesbeiana.1                    AUUU
+G.gallus.1                         CUUU
+T.guttata.1                        CUUC
+A.carolinensis.1                   CUUU
+A.inornata.1                       CUUU
+P.capensis.1                       CUUU
+L.africana.1                       UUUU
+L.africana.2                       CUUU
+E.telfairi.1                       CUUC
+O.cuniculus.1                      UUUU
+O.princeps.1                       AUUU
+C.porcellus.1                      CUUC
+D.ordii.1                          UUUU
+M.musculus.1                       AUUU
+R.norvegicus.1                     CUUC
+Rattus.1                           UUUU
+Spermophilus_tridece.1             UUUU
+M.mulatta.1                        CUUU
+H.sapiens.1                        CUUC
+H.sapiens.2                        UUUU
+H.sapiens.3                        CUUU
+P.abelii.1                         AUUU
+T.syrichta.1                       AUUU
+M.murinus.1                        CUUU
+Otolemur_garnettii_s.1             CUUU
+T.belangeri.1                      CUUU
+C.lupus.1                          CUUU
+F.catus.1                          UUUC
+T.truncatus.1                      UUUU
+B.taurus.1                         CUUU
+V.pacos.1                          CUUC
+P.vampyrus.1                       CUUC
+M.lucifugus.1                      AUUU
+E.europaeus.1                      CUUU
+S.araneus.1                        CUUC
+E.caballus.1                       UUUU
+Dasypus_novemcinctus.1             CUUU
+Choloepus_hoffmanni_.1             CUUU
+Monodelphis_domestic.1             CUUU
+M.eugenii.1                        CUUU
+O.anatinus.1                       CUUU
+#=GC SS_cons                       >>>>
+#=GC RF                            cuUU
+//

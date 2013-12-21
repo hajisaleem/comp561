@@ -1,0 +1,69 @@
+# STOCKHOLM 1.0
+#=GF ID    AHBV_epsilon
+#=GF AC    RF01313
+#=GF DE    Avian HBV RNA encapsidation signal epsilon
+#=GF AU    Chen A, Brown C, Daub J
+#=GF GA    30.0
+#=GF NC    20.7
+#=GF TC    41.9
+#=GF PI    HHBV_epsilon
+#=GF SE    Chen A, Brown C
+#=GF SS    Published; PMID:17430968
+#=GF TP    Cis-reg;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 274931 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0005836 SO:regulatory_region
+#=GF DR    GO:0019079 GO:viral genome replication
+#=GF RN    [1]
+#=GF RM    9188560
+#=GF RT    Sequence- and structure-specific determinants in the interaction
+#=GF RT    between the RNA encapsidation signal and reverse transcriptase of
+#=GF RT    avian hepatitis B viruses.
+#=GF RA    Beck J, Nassal M;
+#=GF RL    J Virol. 1997;71:4971-4980.
+#=GF RN    [2]
+#=GF RM    17430968
+#=GF RT    Thermodynamics and NMR studies on Duck, Heron and Human HBV
+#=GF RT    encapsidation signals.
+#=GF RA    Girard FC, Ottink OM, Ampt KA, Tessari M, Wijmenga SS;
+#=GF RL    Nucleic Acids Res. 2007;35:2800-2811.
+#=GF WK    http://en.wikipedia.org/wiki/Avian_HBV_RNA_encapsidation_signal_epsilon
+#=GF SQ    10
+
+#=GS Heron_hepatitis_B_vi.1 AC    M22056.1/2566-2622
+#=GS Stork_hepatitis_B_vi.1 AC    AJ251934.1/2572-2628
+#=GS Duck_hepatitis_B_vir.1 AC    AY294029.1/2560-2616
+#=GS Duck_hepatitis_B_vir.2 AC    AY433937.1/2566-2622
+#=GS Duck_hepatitis_B_vir.3 AC    X74623.1/2560-2616
+#=GS Duck_hepatitis_B_vir.4 AC    M21953.1/2563-2619
+#=GS Duck_hepatitis_B_vir.5 AC    AY392760.1/2566-2622
+#=GS Duck_hepatitis_B_vir.6 AC    AY250904.1/2560-2616
+#=GS Duck_hepatitis_B_vir.7 AC    AY536371.1/2566-2622
+#=GS Duck_hepatitis_B_vir.8 AC    AY521226.1/2566-2622
+
+Heron_hepatitis_B_vi.1             UGCCAAGGUAUCUUUACGUCGACCUCGCUGUUGUUCCUUGUGACUGUACC
+Stork_hepatitis_B_vi.1             UGCCAAGGUAUCUUUACGUCAACCUCGCUGUUGUUCCUUGUGACUGUACC
+Duck_hepatitis_B_vir.1             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGUGUGUGACUGUACC
+Duck_hepatitis_B_vir.2             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGGCUUUGACUGUACC
+Duck_hepatitis_B_vir.3             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGUGUGUGACUGUACC
+Duck_hepatitis_B_vir.4             UGCCAAGGUAUAUUUACGUCUACAUUGCUGUUGUCAAGUCUGACUGUACC
+Duck_hepatitis_B_vir.5             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGUGUUUGACUGUACC
+Duck_hepatitis_B_vir.6             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGUGUGUGACUGUACC
+Duck_hepatitis_B_vir.7             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGUGUUUGACUGUACC
+Duck_hepatitis_B_vir.8             UGCCAAGGUAUCUUUACGUCUACAUUGCUGUUGUCGGCUUUGACUGUACC
+#=GC SS_cons                       <<<<<<<<<<<......<<<......<<....>>.......>>>.>>>>>
+#=GC RF                            UGCCAAGGUAUcUUUACGUCgAcauuGCUGUUGUcaugUcUGACUGUACC
+
+Heron_hepatitis_B_vi.1             UUUGGUA
+Stork_hepatitis_B_vi.1             UUUGGUA
+Duck_hepatitis_B_vir.1             UUUGGUA
+Duck_hepatitis_B_vir.2             UUUGGUA
+Duck_hepatitis_B_vir.3             UUUGGUA
+Duck_hepatitis_B_vir.4             UUUGGUA
+Duck_hepatitis_B_vir.5             UUUGGUA
+Duck_hepatitis_B_vir.6             UUUGGUA
+Duck_hepatitis_B_vir.7             UUUGGUA
+Duck_hepatitis_B_vir.8             UUUGGUA
+#=GC SS_cons                       .>>>>>>
+#=GC RF                            UUUGGUA
+//

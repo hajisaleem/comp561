@@ -1,0 +1,133 @@
+# STOCKHOLM 1.0
+#=GF ID    greA
+#=GF AC    RF01769
+#=GF DE    Enterobacteria greA leader
+#=GF AU    Moore B
+#=GF GA    44.0
+#=GF NC    43.9
+#=GF TC    46.4
+#=GF SE    Published; PMID:20920266
+#=GF SS    Published; PMID:20920266
+#=GF TP    Gene;
+#=GF BM    cmbuild  -F CM SEED; cmcalibrate --mpi -s 1 CM
+#=GF BM    cmsearch  -Z 274931 -E 1000000  --toponly  CM SEQDB
+#=GF DR    SO:0001263 SO:ncRNA_gene
+#=GF RN    [1]
+#=GF RM    20920266
+#=GF RT    Premature terminator analysis sheds light on a hidden world of
+#=GF RT    bacterial transcriptional attenuation.
+#=GF RA    Naville M, Gautheret D;
+#=GF RL    Genome Biol. 2010;11:R97.
+#=GF WK    http://en.wikipedia.org/wiki/Enterobacteria_greA_leader
+#=GF SQ    25
+
+#=GS Citrobacter_youngae_.1 AC    ABWL02000026.1/97946-98069
+#=GS Citrobacter_koseri_A.1 AC    CP000822.1/4232313-4232191
+#=GS Cronobacter_sakazaki.1 AC    CP000783.1/3511736-3511612
+#=GS Enterobacter_cancero.1 AC    ABWM02000035.1/307238-307115
+#=GS Enterobacter.1         AC    CP000653.1/3921956-3921833
+#=GS E.tasmaniensis.1       AC    CU468135.1/394538-394659
+#=GS Escherichia_coli_CFT.1 AC    AE014075.1/3762565-3762444
+#=GS Klebsiella_pneumonia.1 AC    CP000964.1/547166-547288
+#=GS Klebsiella_pneumonia.2 AC    CP000647.1/3952494-3952372
+#=GS Pectobacterium_atros.1 AC    BX950851.1/766215-766336
+#=GS Pectobacterium_carot.1 AC    ABVY01000071.1/7189-7310
+#=GS Pectobacterium_carot.2 AC    ABVX01000023.1/64195-64319
+#=GS Photorhabdus_asymbio.1 AC    FM211050.1/45033-44909
+#=GS Photorhabdus_lumines.1 AC    BX571874.1/85651-85526
+#=GS Salmonella_enterica_.1 AC    CP001127.1/3367755-3367633
+#=GS Salmonella_enterica_.2 AC    ABAK02000001.1/2786947-2786825
+#=GS Serratia_proteamacul.1 AC    CP000826.1/530219-530340
+#=GS Shigella_boydii_Sb22.1 AC    CP000036.1/3206058-3206179
+#=GS Shigella_sonnei_Ss04.1 AC    CP000038.1/3508005-3507884
+#=GS Shigella_dysenteriae.1 AC    CP000034.1/3120337-3120217
+#=GS S.glossinidius.1       AC    AP008232.1/664508-664628
+#=GS Yersinia_bercovieri_.1 AC    AALC02000010.1/59051-58928
+#=GS Y.pestis.1             AC    CP000668.1/4087530-4087411
+#=GS Yersinia_enterocolit.1 AC    AM286415.1/493871-493990
+#=GS Yersinia_mollaretii_.1 AC    AALD02000019.1/26388-26268
+
+Citrobacter_youngae_.1             GUCAUACUACGGCGCAACGCCCCAAAAAGUAAACGAUGACCCAUCGGGAA
+Citrobacter_koseri_A.1             GUCAUACUACGGCGCAAUGCCCUGGAAAGUAAACGAUGACCCAUAGGGAA
+Cronobacter_sakazaki.1             GUCAUACUAAGGCGCAUCGCCCUGCAAAGUAAACGAUGACCCUUCGGGAA
+Enterobacter_cancero.1             GUCAUACUACGGUGCAUGGCACUGCAAAGUAAACGAUGACCCAUAGUGAA
+Enterobacter.1                     GCCAUACUACGGUGCAACGCCCUGUAAAGUAAACGAUGACCCAUAGUGAA
+E.tasmaniensis.1                   GCCAUACUACGGUGCAUCGUGGUGGAAAGUAAACGAUGACCCCUAUGGAA
+Escherichia_coli_CFT.1             GUCAUACUACGGCGCAACGCCCUAUAAAGUAAACGAUGACCCUUCGGGAA
+Klebsiella_pneumonia.1             GUCAUACUACGGUGCAACGCCCAGUAAAGUAAACGAUGACCCAUAAUGAA
+Klebsiella_pneumonia.2             GUCAUACUACGGUGCAACGCCCAGUAAAGUAAACGAUGACCCAUAAUGAA
+Pectobacterium_atros.1             GUCAUACUACGGCGCAAUAAGGUCUAAAGUAAACGAUGACCCUCAUUGAA
+Pectobacterium_carot.1             GUCAUACUACGGCGCAACAAGGGCUAAAGUAAACGAUGACCCUCAUUGAA
+Pectobacterium_carot.2             GUCAUACUACGGUGCAAUAAGGUCUAAAGUAAACGAUGACCCUCAUUGAA
+Photorhabdus_asymbio.1             ACAAUACUAAGGUGCAAAGUGGGGAAAAGUAAACGAUGACCCAUCACCAA
+Photorhabdus_lumines.1             ACAAUACUAAGGCGCAAAGUGGGGAAAAGUAAACGAUGACCCAUCACCAA
+Salmonella_enterica_.1             GUCAUACUACGGCGCAACGCCCUAAAAAGUAAACGAUGACCCAUAGGGAA
+Salmonella_enterica_.2             GUCAUACUACGGCGCAACGCCCUAAAAAGUAAACGAUGACCCAUAGGGAA
+Serratia_proteamacul.1             GUCAUACUACGGUGCAUUCAGGGAAAAAGUAAACGAUGACCCUCAAGGAA
+Shigella_boydii_Sb22.1             GUCAUACUACGGCGCAACGCCCUAUAAAGUAAACGAUGACCCUUCGGGAA
+Shigella_sonnei_Ss04.1             GUCAUACUACGGCGCAACGCCCUAUAAAGUAAACGAUGACCCUUCGGGAA
+Shigella_dysenteriae.1             GUCAUACUACGGCGCAACGCCCUAUAAAGUAAACGAUGACCCUUCGGGAA
+S.glossinidius.1                   GUCACACUACGGUGCAA.ACAGGGAUAAGUAAACGAUGACCCACACCGAA
+Yersinia_bercovieri_.1             GCCAUACUACGGUGCAACGAGGGCGAAAGUAAACGAUGACCCUAAAGGAA
+Y.pestis.1                         GUCAUACUACGGUGCAACGAGGGAGAAAGUAAACGAUGACCCUAAAGGAA
+Yersinia_enterocolit.1             ..CAUACUACGGUGCAACGAGGGCGAAAGUAAACGAUGACCCUAAAGGAA
+Yersinia_mollaretii_.1             GCCAUACUACGGUGCAACGAGGGCGAAAGUAAACGAUGACCCUAAAGGAA
+#=GC SS_cons                       <<<<<....<<..<<.............>>...>>>>>>><<....>>..
+#=GC RF                            GuCAuACUACGGuGCAAcGaggugaAAAGUAAACGaUGaCCcauAagGAA
+
+Citrobacter_youngae_.1             CUCCAGGGUAAAAU.GAUCAUCAA.AUAGAGAAU.UGUA.GCUGACCUGG
+Citrobacter_koseri_A.1             CUCCAGGGUAAAAU.ACGUAUCAAAUUG.AGAAU.UGUA.GCUGACCUGG
+Cronobacter_sakazaki.1             CUUCAGGGUAAAAU.ACGUAUCAAAUUGCAAAAU.CGUU.CCUGACCUGG
+Enterobacter_cancero.1             CUUCGCGGUAAAAU.GCGUAUCAAAUUGAAAAAU.UGCU.GCUGACCUGG
+Enterobacter.1                     CUUCGCGGUAAAAU.ACGUAUCAAAUUGAAAAAU.UGCU.GCUGACCUGG
+E.tasmaniensis.1                   CUCUGGGGUAAAAU.ACGUAUCAAAUUGCGAAAU.UGAU.UCUGGCCUGG
+Escherichia_coli_CFT.1             CUCCAGGGUAAAAU.GACUAUCAAAAUG.UGAAU.UGUA.GCUGACCUGG
+Klebsiella_pneumonia.1             CUUCGGGGUAAAAU.ACCUAUCAA.AUGAAAAAU.UGCU.GCUGACCUGG
+Klebsiella_pneumonia.2             CUUCGGGGUAAAAU.ACCCAUCAAA.UGAAAAAU.UGCU.GCUGACCUGG
+Pectobacterium_atros.1             CUCUGGGGUAAAAU.ACGUAUCAAAAUGCAAAAC.CGCUGCUAGCC.UGG
+Pectobacterium_carot.1             CUCUGGGGUAAAAU.ACGUAUCAAAAUGCAAAAC.CGCUGCUAGCC.UGG
+Pectobacterium_carot.2             CUCUGGGGUAAAAU.ACGUAUCAAAAUGCAAAAC.CGCU.ACUAGCCUGG
+Photorhabdus_asymbio.1             GUCUACGUUAGAAUGAUACAUUAAUAUGUAGAAA.UGAU.UGUGAACUUU
+Photorhabdus_lumines.1             GUCUACGUUAGAAUGAUAUAUUAAUAUGUAAAAUAUGAU.UGUGAACUCU
+Salmonella_enterica_.1             CUCCAGGGUAAAAU.GGUUAUCAAAGAG.GAAAU.UGUA.GCUGACCUGG
+Salmonella_enterica_.2             CUCCAGGGUAAAAU.GGUUAUCAAAGAG.GAAAU.UGUA.GCUGACCUGG
+Serratia_proteamacul.1             CUCUAAGCUAAAAU.GCGUAUCAAAAUGCAAAAU.CGAUCC.UGACUUGG
+Shigella_boydii_Sb22.1             CUUCAGGGUAAAAU.GACCAUCAAAAUG.UGAAU.UGUA.GCUGACCUGG
+Shigella_sonnei_Ss04.1             CUUCAGGGUAAAAU.GACUAUCAAAAUG.UGAAU.UGUA.GCUGACCUGG
+Shigella_dysenteriae.1             CUUCAGGGUAAAAU.GACUAUCAAAAUG.UGAAU.UGUA.GCUGACCUGG
+S.glossinidius.1                   CUCUGCGGUAAAAU.ACGUAUCAAAAUGCAAAAC.UGAGGCUGGCCUGGG
+Yersinia_bercovieri_.1             CUCUACGUUAAAAU.GCAUAUCAAAAUGCAAAAU.UGAU.CCUGACUUGG
+Y.pestis.1                         CUCUACGUUAAAAU.GCAUAUCAAAAUGCAAAAU.UGAUCCUGACUUGGG
+Yersinia_enterocolit.1             CUCUACGUUAAAAU.GCAUAUCAAAAUGCAAAAU.UGAUCCUGACUUGGG
+Yersinia_mollaretii_.1             CUCUACGUUAAAAU.GCAUAUCAAAAUGCAAAAU.UGAU.CCUAACCUGG
+#=GC SS_cons                       ......<<<<........>>>>..................<<<<<<<<<<
+#=GC RF                            CUcuagGaUAAAAU.acgUAuCAAAAUGcAAAAU.UGau.ccuGaCCugG
+
+Citrobacter_youngae_.1             GACCUUGAGCCCCGGGUCGGUAU.UUUUU
+Citrobacter_koseri_A.1             GGCUUUGUACCC.GGGUCGGUAU.UUUUU
+Cronobacter_sakazaki.1             GGCUUUGUCUCC.GGGUCAGUUUUCUUUU
+Enterobacter_cancero.1             GACUUUGUUCCC.GGGUCGGUUUUCUUU.
+Enterobacter.1                     AACUUUGCUUCC.GGGUCAGUUU.UCUUU
+E.tasmaniensis.1                   AGCU..UGCUCC.GGGUCAGGUU.UCUUU
+Escherichia_coli_CFT.1             GACU.UGUACCC.GGGUCGGUAU.UUUUU
+Klebsiella_pneumonia.1             GGAGUGUUUCCC.GGGUCGGUUU.CUUUU
+Klebsiella_pneumonia.2             GGAGUGUUUCCC.GGGUCGGUUUCUUUU.
+Pectobacterium_atros.1             AUAUUUUGUUCU.GGGGCUGGUU.GC..U
+Pectobacterium_carot.1             AAAUUUUGUUCC.GGGGCUGGUU.GC..U
+Pectobacterium_carot.2             AAAUUUUGUUCCGGGGCUGGUUG.CUUUU
+Photorhabdus_asymbio.1             GGGUAACUCUGU.AGUUUACAUG.AUUGU
+Photorhabdus_lumines.1             GGGUAGUCCUAU.GGUUUGCACU.AUUGU
+Salmonella_enterica_.1             GACUGCGCGCCC.GGGUUGGUGUUUUUU.
+Salmonella_enterica_.2             GACUGCGCGCCC.GGGUUGGUGU.UUUUU
+Serratia_proteamacul.1             GCAA.CUGUUCC.GAGUCA.GGC.UUCUU
+Shigella_boydii_Sb22.1             GACUU.GUACCC.GGGUCGGUAUUUUUU.
+Shigella_sonnei_Ss04.1             GACUU.GUACCU.GGGUCGGUAUUUUUU.
+Shigella_dysenteriae.1             .ACUU.GUACCC.GGGGCGGUAUUUUUU.
+S.glossinidius.1                   AAGC..GAUUCC.GGGGUC.GCU.UCCUU
+Yersinia_bercovieri_.1             GUUUUUUGCUCC.AGGAGUGAUU.AUUUU
+Y.pestis.1                         GUUU.UUGGCCC.UAGGUU..UU.UUU..
+Yersinia_enterocolit.1             GUUU.UGGCUCC.GGGGUG..AU.UUUUU
+Yersinia_mollaretii_.1             UUUUUUUGCUUC.AGG...GGUG.AUUGU
+#=GC SS_cons                       <........>>>.>>>>>>>>........
+#=GC RF                            gaauuuuuucCc.gGGuCagguU.uUUUU
+//
